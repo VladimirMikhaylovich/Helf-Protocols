@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:paddingTop="20dp">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Дата"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:textColor="@color/black">
+
+</TextView>
+
+    <TextView
+        android:id="@+id/dateToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black">
+
+    </TextView>
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Температура"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/black">
+    </TextView>
+            <TextView
+                android:id="@+id/tempToday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Симтомы"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/black">
+
+    </TextView>
+            <TextView
+                android:id="@+id/symToday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black">
+
+            </TextView>
+        </LinearLayout>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="5"
+    android:paddingTop="30dp">
+    <TextView
+        android:id="@+id/dataLastWeek1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_weight="1">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/dataLastWeek2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/dataLastWeek3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_weight="1">
+
+    </TextView>
+    <TextView
+        android:id="@+id/dataLastWeek4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_weight="1">
+
+    </TextView>
+    <TextView
+        android:id="@+id/dataLastWeek5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+    android:gravity="center"
+        android:text=""
+        android:layout_weight="1">
+
+    </TextView>
+    <TextView
+        android:id="@+id/dataLastWeek6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_weight="1">
+
+    </TextView>
+    <TextView
+        android:id="@+id/dataLastWeek7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_weight="1">
+
+    </TextView>
+    <TextView
+        android:id="@+id/dataLastWeek8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_weight="1">
+
+    </TextView>
+    <TextView
+        android:id="@+id/dataLastWeek9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_weight="1">
+
+    </TextView>
+    <TextView
+        android:id="@+id/dataLastWeek10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_weight="1">
+
+    </TextView>
+    <TextView
+        android:id="@+id/dataLastWeek11"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_weight="1">
+
+    </TextView>
+
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="#304FFE"
+    android:text="Создать"
+    android:visibility="visible"
+    tools:visibility="visible"
+    android:onClick="create">
+</Button>
+
+    </RelativeLayout>
+
+</LinearLayout>
